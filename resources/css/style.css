@@ -1,0 +1,158 @@
+:root {
+    --white-0: #000000;
+    --white-100: #ffffff;
+
+    --white-10: #1a1a1a;
+    --white-20: #333333;
+    --white-30: #4d4d4d;
+
+    --red-50: #ff0000;
+
+    --yellow-50: #ffff00;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--white-0);
+    color: var(--white-100);
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.header,
+.bio,
+.posts {
+    border: 0px;
+    border-style: solid;
+    margin: 2px;
+}
+
+.box-1,
+.box-2 {
+    border: 0px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box-1 {
+    background-color: var(--white-10);
+}
+
+.box-2 {
+    background-color: var(--white-20);
+}
+
+.logo {
+    border: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+    background-color: var(--red-50);
+}
+
+.logo:hover {
+    color: var(--white-0);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bio-container {
+    padding: 10px;
+}
+
+.bio-container,
+.posts-container {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.avatar,
+.name,
+.status {
+    margin-bottom: 10px;
+}
+
+p {
+    display: inline-block;
+}
+
+.socials {
+    border: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    letter-spacing: 1px;
+    display: inline-block;
+    background-color: var(--white-30);
+}
+
+.twitter:hover {
+    background-color: #1d9bf0;
+    color: var(--white-0);
+}
+
+.github:hover {
+    background-color: var(--white-0);
+}
+
+.linkedin:hover {
+    background-color: #0a66c2;
+}
+
+.bio-list-02 {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.project:hover {
+    background-color: #ffcc00;
+    color: var(--white-0);
+}
+
+.blog:hover {
+    background-color: #0099ff;
+}
+
+.post {
+    border: 0px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: var(--white-30);
+}
+
+.post:hover {
+    background-color: var(--white-100);
+    color: var(--white-0);
+}
+
+.socials {
+    width: 100px;
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .bio-list-02 {
+        display: block;
+    }
+
+    .space {
+        margin-bottom: 10px;
+    }
+}
